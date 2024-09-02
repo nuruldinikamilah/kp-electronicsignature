@@ -1,0 +1,55 @@
+<!-- views/mahasiswa/beranda.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengajuan KP</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Jika menggunakan Tailwind lokal, gunakan ini -->
+    <!-- <link rel="stylesheet" href="../assets/tailwind.css"> -->
+</head>
+<body class="bg-gray-100">
+    <div class="flex">
+        <!-- Include Sidebar Mahasiswa -->
+        <?php include 'templates/sidebar.php'; ?>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6">
+                    Ketentuan Pembuatan Surat Pengantar Kerja Praktek
+                    Mahasiswa Prodi Teknik Informatika UNIKOM
+                </h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="mr-3">1.</span>
+                        <p>Surat pengantar hanya akan dibuatkan satu kali dan satu Perusahaan atau Instansi. Apabila anda akan mengajukan surat ke tempat KP yang baru, maka harus ada surat penolakan dari tempat KP sebelumnya.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3">2.</span>
+                        <p>KP dianjurkan berkelompok (satu kelompok terdiri dari 3 mahasiswa dan tidak boleh lebih). Tapi diperbolehkan juga satu atau dua orang dalam satu kelompok.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3">3.</span>
+                        <p>Surat pengantar akan dikirimkan melalui alamat email salah seorang mahasiswa 2-4 hari setelah anda mengisi form.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3">4.</span>
+                        <p>Surat diterima KP dari Instansi/Perusahaan bisa dikirimkan ke email roby.irawan@email.unikom.ac.id untuk ditukar dengan Dokumen Kerja Praktek.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3">5.</span>
+                        <p>Harap teliti dalam pengisiannya. Karena surat yang sudah dibuat tidak bisa dibuatkan kembali karena kesalahan dari yang mengisi formnya.</p>
+                    </li>
+                </ul>
+                <div class="mt-6">
+                    <a href="#" class="bg-blue-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-700">
+                        Buat Pengajuan
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

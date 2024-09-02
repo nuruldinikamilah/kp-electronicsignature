@@ -1,0 +1,9 @@
+{
+    "vscode-pets.theme": "castle",
+    "vscode-pets.throwBallWithMouse": false,
+    "vscode-pets.petColor": "yellow",
+    "vscode-pets.petSize": "small",
+    "vscode-pets.position": "explorer",
+    "vscode-pets.petType": "cat",
+    "liveServer.settings.port": 5501
+}
